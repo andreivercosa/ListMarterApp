@@ -10,21 +10,25 @@
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
         
-        <Entry
-               Placeholder="Digite um numero"
-            PlaceholderColor="Blue"
-               Keyboard="Numeric"
-                x:Name="Num1"
+       <Entry
+               Placeholder="Digite algo"
+               PlaceholderColor="Gray"
+                x:Name="text"
                />
+        <Button Text="Adicionar Texto"
+                HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+                Clicked="AddTexto"
+        />
         <Button Text="Adicionar Item"
                 HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"
-                Clicked="Handle_Clicked_1"
+                Clicked="AddItem"
         />
         <Button Text="Checar Lista"
                 HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"
-                Clicked="Handle_Clicked"
+                Clicked="CheckList"
                 />
         
     </StackLayout>

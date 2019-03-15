@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{D8AE1E93-8A55-4EF5-B9BF-88CF9AF36D91}|Default">
   <MonoDevelop.Ide.ItemProperties.ListMasterApp.Android PreferredExecutionTarget="Android.JBAKB6044247LNM" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListMasterApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListMasterApp/MainPage.xaml.cs">
     <Files>
-      <File FileName="ListMasterApp/MainPage.xaml.cs" Line="15" Column="59" />
+      <File FileName="ListMasterApp/MainPage.xaml" Line="14" Column="44" />
       <File FileName="ListMasterApp/PageMinhaLista.xaml.cs" Line="8" Column="22" />
       <File FileName="ListMasterApp/PageMinhaLista.xaml" Line="12" Column="1" />
-      <File FileName="ListMasterApp/PageMinhaLista.xaml.cs" Line="20" Column="63" />
       <File FileName="ListMasterApp/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="ListMasterApp/MainPage.xaml" Line="24" Column="15" />
+      <File FileName="ListMasterApp/MainPage.xaml.cs" Line="14" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +14,9 @@
           <Node name="ListMasterApp" expanded="True">
             <Node name="ListMasterApp" expanded="True">
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
               <Node name="PageMinhaLista.xaml" expanded="True" />
             </Node>
           </Node>
